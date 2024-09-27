@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Times, DejaVu Serif, sans-serif; 
+}
+
+section {padding: 30px 55px;
+}
+
+a {
+    color: black ;
+}
+
+.fotka {
+    height: 200px;
+    border: 2px solid #4f1548;
+    border-radius: 30px;
+}
+
+
+.jmeno {
+    background-color: #dfcedd;
+    text-align: center;
+    font-size: 35px;
+    padding: 30px 55px;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        flex: 1;
+    }
+  }
+
+
+.osobni_udaje {
+    background-color: rgb(234, 220, 234);
+}
+
+.udaje {
+    margin: 0;
+}
+
+
+h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #4f1548;
+}
+
+.pracovni_zkusenosti {
+    background-color: #dfcedd;
+
+    h3 {
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    
+    h4 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+.zonky,
+.zuno,
+.czechitas,
+.byron {
+    margin-bottom: 40px;
+}
+
+
+.ge_popis {
+    margin-bottom: 0;
+}
+
+.vzdelani {
+    background-color: rgb(234, 220, 234);
+
+    h3 {
+        margin: 5px;
+    }
+
+    h4 {
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+}
+
+
+.dovednosti {
+    background-color: #dfcedd;
+
+    h3 {
+        margin: 5px;
+    }
+}
